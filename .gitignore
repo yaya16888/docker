@@ -1,0 +1,9 @@
+.env
+node_modules/
+# Go
+/bin/
+/dist/
+*.exe
+*.test
+# Docker
+**/db-data/
