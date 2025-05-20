@@ -4,7 +4,7 @@
     COPY ./go/go.mod ./go/go.sum ./
     RUN go mod download
     COPY ./go .
-    RUN go install github.com/cosmtrek/air@latest && go test ./...
+    RUN go install github.com/cosmtrek/air@v1.48.0 && go test ./...
     
     # --- runner ---
     FROM golang:1.22-bullseye

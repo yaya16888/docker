@@ -1,0 +1,4 @@
+root = "go"
+[build]
+  cmd = "go run ./cmd/api/main.go"
+  include_ext = ["go"]
